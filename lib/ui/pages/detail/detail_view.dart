@@ -61,6 +61,7 @@ class DetailView extends GetResponsiveView<DetailViewController> {
                     controller.args.companyProp.meaning,
                     style: GoogleFonts.assistant(
                       color: controller.args.companyProp.color,
+                      fontWeight: FontWeight.w600,
                       decoration: TextDecoration.none,
                     ),
                   ),

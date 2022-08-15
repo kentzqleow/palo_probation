@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'PALO Probation',
       theme: TheThemes.lightTheme,
       transitionDuration: const Duration(milliseconds: 400),
+      defaultTransition: Transition.fadeIn,
       darkTheme: TheThemes.lightTheme,
       initialRoute: Routes.home.value,
       getPages: TheRouter.getPages,
